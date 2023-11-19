@@ -11,6 +11,7 @@ import torchvision.transforms as transforms
 from PIL import Image
 
 import resnet
+from eval_combined import main
 
 def normalize(img):
     img -= img.min()
